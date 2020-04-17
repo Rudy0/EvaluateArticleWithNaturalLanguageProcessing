@@ -5,7 +5,7 @@ function checkForUrl(url) {
     if(regexp.test(url)){
         return true;
     }else{
-        document.querySelector('#error').innerHTML = `${url} not a valid URL</strong>`;
+        document.querySelector('#error').innerHTML = `${url} not a valid URL`;
          }
     }
 
