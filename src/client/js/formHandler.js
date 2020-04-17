@@ -20,7 +20,9 @@ function handleSubmit() {
         .then(res => res.json())
         .then(function(res) {
             console.log(res);
-            document.querySelector('#results').innerHTML = `${res.polarity}`;
+            document.querySelector('#results').innerHTML = `<h3>Polarity: ${res.polarity}</h3>
+            <h3>Subjectivity: ${res.subjectivity}</h3>
+            <h3>Polarity Confidence: ${res.polarity_confidence}</h3>`;
         })
     }
 }

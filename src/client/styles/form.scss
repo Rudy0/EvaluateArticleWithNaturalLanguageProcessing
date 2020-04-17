@@ -1,5 +1,5 @@
 form {
-    border: 1px solid #545454;
+    border: 3px solid #141212;
     border-radius: 3px;
     padding: 40px;
 }
@@ -9,4 +9,18 @@ input {
     width: 100%;
     line-height: 16px;
     margin: 10px 0;
+}
+#error{
+    margin-bottom: 10px;
+    color: #ff204d;
+    text-shadow: darken($color: #000000, $amount: 0);
+    font-weight: bolder;
+}
+#results{
+    color: #000 ;
+    font-weight: bold;
+}
+
+h3{
+    margin: 10px auto;
 }
